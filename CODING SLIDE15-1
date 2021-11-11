@@ -1,0 +1,16 @@
+package selfProgramming;
+
+public class SLIDE15 {
+
+	public static void main(String[] args) {
+		
+		int amount=3;
+		int balance=2;
+		
+		if (amount <= balance)
+		{  balance = balance - amount;
+			System.out.println("Acct new balance = " + balance);
+		}
+
+	}
+}
