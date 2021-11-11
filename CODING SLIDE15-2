@@ -1,0 +1,17 @@
+package selfProgramming;
+
+class Slide152 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int amount=3;
+		int balance=5;
+		
+		if (amount <= balance)
+			   balance = balance - amount;
+			System.out.println("Acct new balance = " + balance);
+
+	}
+
+}
