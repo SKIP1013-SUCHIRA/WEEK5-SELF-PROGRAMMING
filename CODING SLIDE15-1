@@ -5,7 +5,7 @@ public class SLIDE15 {
 	public static void main(String[] args) {
 		
 		int amount=3;
-		int balance=2;
+		int balance=5;
 		
 		if (amount <= balance)
 		{  balance = balance - amount;
