@@ -1,0 +1,28 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+class Slide19 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int amount;
+		int balance;
+		
+		Scanner b = new Scanner (System.in);
+		
+		System.out.println("amount:");
+		amount=b.nextInt();
+		System.out.println("balance:");
+		balance=b.nextInt();
+		{
+			if  ((amount <= 1000.0) && (amount <= balance))
+			{   balance = balance - amount;   
+				System.out.println("Acct new balance = " + balance);
+			}
+
+		}
+	}
+
+}
