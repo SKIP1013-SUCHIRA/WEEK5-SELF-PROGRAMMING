@@ -1,0 +1,27 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+class slide16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int income;
+		int MIN_LEVEL=2000;
+		int age;
+		
+		Scanner a = new Scanner (System.in);
+		
+		System.out.println("Enter income:");
+		income=a.nextInt();
+		System.out.println("Enter age:");
+		age=a.nextInt();
+		
+		{
+		if ((income > MIN_LEVEL ) && (age <50))
+			   System.out.println("Can Apply Loan");
+		}
+	}
+
+}
