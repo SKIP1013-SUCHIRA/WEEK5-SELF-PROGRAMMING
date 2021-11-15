@@ -1,0 +1,30 @@
+package selfProgramming;
+import java.util.Scanner;
+class slide23 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int amount;
+		int balance;
+		int OVERDRAFT_PENALTY=10;
+		Scanner a= new Scanner(System.in);
+		
+		System.out.println("amount: ");
+		amount=a.nextInt();
+		System.out.println("balance: ");
+		balance=a.nextInt();
+		
+		if (amount <= balance)
+		{   balance = balance - amount;  
+			System.out.println("Acct new balance = " + balance);
+		}
+		else
+		{
+		      balance = balance - OVERDRAFT_PENALTY;
+			   System.out.println("TRANSACTION NOT ALLOWED");
+		} 
+
+	}
+
+}
