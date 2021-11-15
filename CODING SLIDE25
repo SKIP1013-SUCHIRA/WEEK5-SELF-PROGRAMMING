@@ -1,0 +1,29 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+class slide25 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int age;
+		
+		Scanner a=new Scanner (System.in);
+		
+		System.out.println("age: ");
+		age=a.nextInt();
+		
+		if  ((age >= 25) && (age <= 50))
+		{ 
+			System.out.println("You are qualified to apply");
+		}
+		else 
+		{
+		     System.out.println("You are NOT qualified to apply"); 
+		}
+
+		
+	}
+
+}
